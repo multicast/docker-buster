@@ -135,7 +135,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libncursesw6:amd64         6.1+20181013-2              amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle6:amd64           3.4.1-1                     amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64          0.52.20-8                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
-    ii  libnghttp2-14:amd64        1.36.0-2                    amd64        library implementing HTTP/2 protocol (shared library)
+    ii  libnghttp2-14:amd64        1.36.0-2+deb10u1            amd64        library implementing HTTP/2 protocol (shared library)
     ii  libp11-kit0:amd64          0.23.15-2                   amd64        library for loading and coordinating access to PKCS#11 modules - runtime
     ii  libpam-modules:amd64       1.3.1-5                     amd64        Pluggable Authentication Modules for PAM
     ii  libpam-modules-bin         1.3.1-5                     amd64        Pluggable Authentication Modules for PAM - helper binaries
