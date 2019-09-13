@@ -88,6 +88,8 @@ You can define environment variables via `--env` argument found in the following
     ii  gzip                       1.9-3                       amd64        GNU compression utilities
     ii  hostname                   3.21                        amd64        utility to set/show the host name or domain name
     ii  init-system-helpers        1.56+nmu1                   all          helper tools for all init systems
+    ii  iproute2                   4.20.0-2                    amd64        networking and traffic control tools
+    ii  iputils-ping               3:20180629-2                amd64        Tools to test the reachability of network hosts
     ii  joe                        4.6-1+b1                    amd64        user friendly full screen text editor
     ii  less                       487-0.1+b1                  amd64        pager program similar to more
     ii  libacl1:amd64              2.2.53-4                    amd64        access control list - shared library
@@ -102,11 +104,14 @@ You can define environment variables via `--env` argument found in the following
     ii  libc-l10n                  2.28-10                     all          GNU C Library: localization files
     ii  libc6:amd64                2.28-10                     amd64        GNU C Library: Shared libraries
     ii  libcap-ng0:amd64           0.7.9-2                     amd64        An alternate POSIX capabilities library
+    ii  libcap2:amd64              1:2.25-2                    amd64        POSIX 1003.1e capabilities (library)
+    ii  libcap2-bin                1:2.25-2                    amd64        POSIX 1003.1e capabilities (utilities)
     ii  libcom-err2:amd64          1.44.5-1+deb10u1            amd64        common error description library
     ii  libcurl3-gnutls:amd64      7.64.0-4                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
     ii  libcurl4:amd64             7.64.0-4                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64             5.3.28+dfsg1-0.5            amd64        Berkeley v5.3 Database Libraries [runtime]
     ii  libdebconfclient0:amd64    0.249                       amd64        Debian Configuration Management System (C-implementation library)
+    ii  libelf1:amd64              0.176-1.1                   amd64        library to read and write ELF files
     ii  liberror-perl              0.17027-2                   all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64            2.2.6-2                     amd64        XML parsing C library - runtime library
     ii  libext2fs2:amd64           1.44.5-1+deb10u1            amd64        ext2/ext3/ext4 file system libraries
@@ -130,6 +135,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libldap-common             2.4.47+dfsg-3+deb10u1       all          OpenLDAP common files for libraries
     ii  liblz4-1:amd64             1.8.3-1                     amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64             5.2.4-1                     amd64        XZ-format compression library
+    ii  libmnl0:amd64              1.0.4-2                     amd64        minimalistic Netlink communication library
     ii  libmount1:amd64            2.33.1-0.1                  amd64        device mounting library
     ii  libncurses6:amd64          6.1+20181013-2+deb10u1      amd64        shared libraries for terminal handling
     ii  libncursesw6:amd64         6.1+20181013-2+deb10u1      amd64        shared libraries for terminal handling (wide character support)
@@ -173,6 +179,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libudev1:amd64             241-7~deb10u1               amd64        libudev shared library
     ii  libunistring2:amd64        0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64             2.33.1-0.1                  amd64        Universally Unique ID library
+    ii  libxtables12:amd64         1.8.2-4                     amd64        netfilter xtables library
     ii  libzstd1:amd64             1.3.8+dfsg-3                amd64        fast lossless compression algorithm
     ii  localepurge                0.7.3.5                     all          reclaim disk space by removing unneeded localizations
     ii  locales                    2.28-10                     all          GNU C Library: National Language (locale) data [support]
