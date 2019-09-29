@@ -76,7 +76,7 @@ You can define environment variables via `--env` argument found in the following
     ii  di                         4.47-1                      amd64        advanced df like disk information utility
     ii  diffutils                  1:3.7-3                     amd64        File comparison utilities
     ii  dpkg                       1.19.7                      amd64        Debian package management system
-    ii  e2fsprogs                  1.44.5-1+deb10u1            amd64        ext2/ext3/ext4 file system utilities
+    ii  e2fsprogs                  1.44.5-1+deb10u2            amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                  1.18.10-1                   all          store /etc in git, mercurial, bzr or darcs
     ii  fdisk                      2.33.1-0.1                  amd64        collection of partitioning utilities
     ii  findutils                  4.6.0+git+20190209-2        amd64        utilities for finding files--find, xargs
@@ -106,7 +106,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libcap-ng0:amd64           0.7.9-2                     amd64        An alternate POSIX capabilities library
     ii  libcap2:amd64              1:2.25-2                    amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin                1:2.25-2                    amd64        POSIX 1003.1e capabilities (utilities)
-    ii  libcom-err2:amd64          1.44.5-1+deb10u1            amd64        common error description library
+    ii  libcom-err2:amd64          1.44.5-1+deb10u2            amd64        common error description library
     ii  libcurl3-gnutls:amd64      7.64.0-4                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
     ii  libcurl4:amd64             7.64.0-4                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64             5.3.28+dfsg1-0.5            amd64        Berkeley v5.3 Database Libraries [runtime]
@@ -114,7 +114,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libelf1:amd64              0.176-1.1                   amd64        library to read and write ELF files
     ii  liberror-perl              0.17027-2                   all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64            2.2.6-2+deb10u1             amd64        XML parsing C library - runtime library
-    ii  libext2fs2:amd64           1.44.5-1+deb10u1            amd64        ext2/ext3/ext4 file system libraries
+    ii  libext2fs2:amd64           1.44.5-1+deb10u2            amd64        ext2/ext3/ext4 file system libraries
     ii  libfdisk1:amd64            2.33.1-0.1                  amd64        fdisk partitioning library
     ii  libffi6:amd64              3.2.1-9                     amd64        Foreign Function Interface library runtime
     ii  libgcc1:amd64              1:8.3.0-6                   amd64        GCC support library
@@ -169,7 +169,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libslang2:amd64            2.3.2-2                     amd64        S-Lang programming library - runtime version
     ii  libsmartcols1:amd64        2.33.1-0.1                  amd64        smart column output alignment library
     ii  libsqlite3-0:amd64         3.27.2-3                    amd64        SQLite 3 shared library
-    ii  libss2:amd64               1.44.5-1+deb10u1            amd64        command-line interface parsing library
+    ii  libss2:amd64               1.44.5-1+deb10u2            amd64        command-line interface parsing library
     ii  libssh2-1:amd64            1.8.0-2.1                   amd64        SSH2 client-side library
     ii  libssl1.1:amd64            1.1.1c-1                    amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64           8.3.0-6                     amd64        GNU Standard C++ Library v3
