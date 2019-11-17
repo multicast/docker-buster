@@ -62,7 +62,7 @@ You can define environment variables via `--env` argument found in the following
     ii  adduser                    3.118                       all          add and remove users and groups
     ii  apt                        1.8.2                       amd64        commandline package manager
     ii  apt-utils                  1.8.2                       amd64        package management related utility programs
-    ii  base-files                 10.3+deb10u1                amd64        Debian base system miscellaneous files
+    ii  base-files                 10.3+deb10u2                amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                      amd64        Debian base system master password and group files
     ii  bash                       5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -137,8 +137,8 @@ You can define environment variables via `--env` argument found in the following
     ii  liblzma5:amd64             5.2.4-1                     amd64        XZ-format compression library
     ii  libmnl0:amd64              1.0.4-2                     amd64        minimalistic Netlink communication library
     ii  libmount1:amd64            2.33.1-0.1                  amd64        device mounting library
-    ii  libncurses6:amd64          6.1+20181013-2+deb10u1      amd64        shared libraries for terminal handling
-    ii  libncursesw6:amd64         6.1+20181013-2+deb10u1      amd64        shared libraries for terminal handling (wide character support)
+    ii  libncurses6:amd64          6.1+20181013-2+deb10u2      amd64        shared libraries for terminal handling
+    ii  libncursesw6:amd64         6.1+20181013-2+deb10u2      amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle6:amd64           3.4.1-1                     amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64          0.52.20-8                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64        1.36.0-2+deb10u1            amd64        library implementing HTTP/2 protocol (shared library)
@@ -155,8 +155,8 @@ You can define environment variables via `--env` argument found in the following
     ii  libpsl5:amd64              0.20.2-2                    amd64        Library for Public Suffix List (shared libraries)
     ii  libpython-stdlib:amd64     2.7.16-1                    amd64        interactive high-level object-oriented language (Python2)
     ii  libpython2-stdlib:amd64    2.7.16-1                    amd64        interactive high-level object-oriented language (Python2)
-    ii  libpython2.7-minimal:amd64 2.7.16-2                    amd64        Minimal subset of the Python language (version 2.7)
-    ii  libpython2.7-stdlib:amd64  2.7.16-2                    amd64        Interactive high-level object-oriented language (standard library, version 2.7)
+    ii  libpython2.7-minimal:amd64 2.7.16-2+deb10u1            amd64        Minimal subset of the Python language (version 2.7)
+    ii  libpython2.7-stdlib:amd64  2.7.16-2+deb10u1            amd64        Interactive high-level object-oriented language (standard library, version 2.7)
     ii  libreadline7:amd64         7.0-5                       amd64        GNU readline and history libraries, run-time libraries
     ii  librtmp1:amd64             2.4+20151223.gitfa8646d.1-2 amd64        toolkit for RTMP streams (shared library)
     ii  libsasl2-2:amd64           2.1.27+dfsg-1               amd64        Cyrus SASL - authentication abstraction library
@@ -173,10 +173,10 @@ You can define environment variables via `--env` argument found in the following
     ii  libssh2-1:amd64            1.8.0-2.1                   amd64        SSH2 client-side library
     ii  libssl1.1:amd64            1.1.1d-0+deb10u2            amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64           8.3.0-6                     amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64          241-7~deb10u1               amd64        systemd utility library
+    ii  libsystemd0:amd64          241-7~deb10u2               amd64        systemd utility library
     ii  libtasn1-6:amd64           4.13-3                      amd64        Manage ASN.1 structures (runtime)
-    ii  libtinfo6:amd64            6.1+20181013-2+deb10u1      amd64        shared low-level terminfo library for terminal handling
-    ii  libudev1:amd64             241-7~deb10u1               amd64        libudev shared library
+    ii  libtinfo6:amd64            6.1+20181013-2+deb10u2      amd64        shared low-level terminfo library for terminal handling
+    ii  libudev1:amd64             241-7~deb10u2               amd64        libudev shared library
     ii  libunistring2:amd64        0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64             2.33.1-0.1                  amd64        Universally Unique ID library
     ii  libxtables12:amd64         1.8.2-4                     amd64        netfilter xtables library
@@ -188,8 +188,8 @@ You can define environment variables via `--env` argument found in the following
     ii  mawk                       1.3.3-17+b3                 amd64        a pattern scanning and text processing language
     ii  mime-support               3.62                        all          MIME files 'mime.types' & 'mailcap', and support programs
     ii  mount                      2.33.1-0.1                  amd64        tools for mounting and manipulating filesystems
-    ii  ncurses-base               6.1+20181013-2+deb10u1      all          basic terminal type definitions
-    ii  ncurses-bin                6.1+20181013-2+deb10u1      amd64        terminal-related programs and man pages
+    ii  ncurses-base               6.1+20181013-2+deb10u2      all          basic terminal type definitions
+    ii  ncurses-bin                6.1+20181013-2+deb10u2      amd64        terminal-related programs and man pages
     ii  net-tools                  1.60+git20180626.aebd88e-1  amd64        NET-3 networking toolkit
     ii  openssl                    1.1.1d-0+deb10u2            amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                     1:4.5-1.1                   amd64        change and administer password and group data
@@ -202,8 +202,8 @@ You can define environment variables via `--env` argument found in the following
     ii  python-minimal             2.7.16-1                    amd64        minimal subset of the Python2 language
     ii  python2                    2.7.16-1                    amd64        interactive high-level object-oriented language (Python2 version)
     ii  python2-minimal            2.7.16-1                    amd64        minimal subset of the Python2 language
-    ii  python2.7                  2.7.16-2                    amd64        Interactive high-level object-oriented language (version 2.7)
-    ii  python2.7-minimal          2.7.16-2                    amd64        Minimal subset of the Python language (version 2.7)
+    ii  python2.7                  2.7.16-2+deb10u1            amd64        Interactive high-level object-oriented language (version 2.7)
+    ii  python2.7-minimal          2.7.16-2+deb10u1            amd64        Minimal subset of the Python language (version 2.7)
     ii  readline-common            7.0-5                       all          GNU readline and history libraries, common files
     ii  sed                        4.7-1                       amd64        GNU stream editor for filtering/transforming text
     ii  sensible-utils             0.0.12                      all          Utilities for sensible alternative selection
