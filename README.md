@@ -81,8 +81,8 @@ You can define environment variables via `--env` argument found in the following
     ii  fdisk                      2.33.1-0.1                  amd64        collection of partitioning utilities
     ii  findutils                  4.6.0+git+20190209-2        amd64        utilities for finding files--find, xargs
     ii  gcc-8-base:amd64           8.3.0-6                     amd64        GCC, the GNU Compiler Collection (base package)
-    ii  git                        1:2.20.1-2                  amd64        fast, scalable, distributed revision control system
-    ii  git-man                    1:2.20.1-2                  all          fast, scalable, distributed revision control system (manual pages)
+    ii  git                        1:2.20.1-2+deb10u1          amd64        fast, scalable, distributed revision control system
+    ii  git-man                    1:2.20.1-2+deb10u1          all          fast, scalable, distributed revision control system (manual pages)
     ii  gpgv                       2.2.12-1+deb10u1            amd64        GNU privacy guard - signature verification tool
     ii  grep                       3.3-1                       amd64        GNU grep, egrep and fgrep
     ii  gzip                       1.9-3                       amd64        GNU compression utilities
