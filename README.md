@@ -126,7 +126,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libgpg-error0:amd64        1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64     1.17-3                      amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed4:amd64          3.4.1-1                     amd64        low level cryptographic library (public-key cryptos)
-    ii  libidn2-0:amd64            2.0.5-1                     amd64        Internationalized domain names (IDNA2008/TR46) library
+    ii  libidn2-0:amd64            2.0.5-1+deb10u1             amd64        Internationalized domain names (IDNA2008/TR46) library
     ii  libk5crypto3:amd64         1.17-3                      amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64         1.6-6                       amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64            1.17-3                      amd64        MIT Kerberos runtime libraries
