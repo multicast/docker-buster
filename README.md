@@ -62,7 +62,7 @@ You can define environment variables via `--env` argument found in the following
     ii  adduser                    3.118                       all          add and remove users and groups
     ii  apt                        1.8.2                       amd64        commandline package manager
     ii  apt-utils                  1.8.2                       amd64        package management related utility programs
-    ii  base-files                 10.3+deb10u2                amd64        Debian base system miscellaneous files
+    ii  base-files                 10.3+deb10u3                amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                      amd64        Debian base system master password and group files
     ii  bash                       5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -76,7 +76,7 @@ You can define environment variables via `--env` argument found in the following
     ii  di                         4.47-1                      amd64        advanced df like disk information utility
     ii  diffutils                  1:3.7-3                     amd64        File comparison utilities
     ii  dpkg                       1.19.7                      amd64        Debian package management system
-    ii  e2fsprogs                  1.44.5-1+deb10u2            amd64        ext2/ext3/ext4 file system utilities
+    ii  e2fsprogs                  1.44.5-1+deb10u3            amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                  1.18.10-1                   all          store /etc in git, mercurial, bzr or darcs
     ii  fdisk                      2.33.1-0.1                  amd64        collection of partitioning utilities
     ii  findutils                  4.6.0+git+20190209-2        amd64        utilities for finding files--find, xargs
@@ -106,7 +106,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libcap-ng0:amd64           0.7.9-2                     amd64        An alternate POSIX capabilities library
     ii  libcap2:amd64              1:2.25-2                    amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin                1:2.25-2                    amd64        POSIX 1003.1e capabilities (utilities)
-    ii  libcom-err2:amd64          1.44.5-1+deb10u2            amd64        common error description library
+    ii  libcom-err2:amd64          1.44.5-1+deb10u3            amd64        common error description library
     ii  libcurl3-gnutls:amd64      7.64.0-4                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
     ii  libcurl4:amd64             7.64.0-4                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64             5.3.28+dfsg1-0.5            amd64        Berkeley v5.3 Database Libraries [runtime]
@@ -114,7 +114,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libelf1:amd64              0.176-1.1                   amd64        library to read and write ELF files
     ii  liberror-perl              0.17027-2                   all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64            2.2.6-2+deb10u1             amd64        XML parsing C library - runtime library
-    ii  libext2fs2:amd64           1.44.5-1+deb10u2            amd64        ext2/ext3/ext4 file system libraries
+    ii  libext2fs2:amd64           1.44.5-1+deb10u3            amd64        ext2/ext3/ext4 file system libraries
     ii  libfdisk1:amd64            2.33.1-0.1                  amd64        fdisk partitioning library
     ii  libffi6:amd64              3.2.1-9                     amd64        Foreign Function Interface library runtime
     ii  libgcc1:amd64              1:8.3.0-6                   amd64        GCC support library
@@ -122,7 +122,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libgdbm-compat4:amd64      1.18.1-4                    amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64             1.18.1-4                    amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64             2:6.1.2+dfsg-4              amd64        Multiprecision arithmetic library
-    ii  libgnutls30:amd64          3.6.7-4                     amd64        GNU TLS library - main runtime library
+    ii  libgnutls30:amd64          3.6.7-4+deb10u2             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64        1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64     1.17-3                      amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed4:amd64          3.4.1-1                     amd64        low level cryptographic library (public-key cryptos)
@@ -169,14 +169,14 @@ You can define environment variables via `--env` argument found in the following
     ii  libslang2:amd64            2.3.2-2                     amd64        S-Lang programming library - runtime version
     ii  libsmartcols1:amd64        2.33.1-0.1                  amd64        smart column output alignment library
     ii  libsqlite3-0:amd64         3.27.2-3                    amd64        SQLite 3 shared library
-    ii  libss2:amd64               1.44.5-1+deb10u2            amd64        command-line interface parsing library
+    ii  libss2:amd64               1.44.5-1+deb10u3            amd64        command-line interface parsing library
     ii  libssh2-1:amd64            1.8.0-2.1                   amd64        SSH2 client-side library
     ii  libssl1.1:amd64            1.1.1d-0+deb10u2            amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64           8.3.0-6                     amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64          241-7~deb10u2               amd64        systemd utility library
+    ii  libsystemd0:amd64          241-7~deb10u3               amd64        systemd utility library
     ii  libtasn1-6:amd64           4.13-3                      amd64        Manage ASN.1 structures (runtime)
     ii  libtinfo6:amd64            6.1+20181013-2+deb10u2      amd64        shared low-level terminfo library for terminal handling
-    ii  libudev1:amd64             241-7~deb10u2               amd64        libudev shared library
+    ii  libudev1:amd64             241-7~deb10u3               amd64        libudev shared library
     ii  libunistring2:amd64        0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64             2.33.1-0.1                  amd64        Universally Unique ID library
     ii  libxtables12:amd64         1.8.2-4                     amd64        netfilter xtables library
