@@ -60,9 +60,9 @@ You can define environment variables via `--env` argument found in the following
     ||/ Name                       Version                     Architecture Description
     +++-==========================-===========================-============-===============================================================================
     ii  adduser                    3.118                       all          add and remove users and groups
-    ii  apt                        1.8.2                       amd64        commandline package manager
-    ii  apt-utils                  1.8.2                       amd64        package management related utility programs
-    ii  base-files                 10.3+deb10u3                amd64        Debian base system miscellaneous files
+    ii  apt                        1.8.2.1                     amd64        commandline package manager
+    ii  apt-utils                  1.8.2.1                     amd64        package management related utility programs
+    ii  base-files                 10.3+deb10u4                amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                      amd64        Debian base system master password and group files
     ii  bash                       5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -81,20 +81,20 @@ You can define environment variables via `--env` argument found in the following
     ii  fdisk                      2.33.1-0.1                  amd64        collection of partitioning utilities
     ii  findutils                  4.6.0+git+20190209-2        amd64        utilities for finding files--find, xargs
     ii  gcc-8-base:amd64           8.3.0-6                     amd64        GCC, the GNU Compiler Collection (base package)
-    ii  git                        1:2.20.1-2+deb10u2          amd64        fast, scalable, distributed revision control system
-    ii  git-man                    1:2.20.1-2+deb10u2          all          fast, scalable, distributed revision control system (manual pages)
+    ii  git                        1:2.20.1-2+deb10u3          amd64        fast, scalable, distributed revision control system
+    ii  git-man                    1:2.20.1-2+deb10u3          all          fast, scalable, distributed revision control system (manual pages)
     ii  gpgv                       2.2.12-1+deb10u1            amd64        GNU privacy guard - signature verification tool
     ii  grep                       3.3-1                       amd64        GNU grep, egrep and fgrep
     ii  gzip                       1.9-3                       amd64        GNU compression utilities
     ii  hostname                   3.21                        amd64        utility to set/show the host name or domain name
     ii  init-system-helpers        1.56+nmu1                   all          helper tools for all init systems
     ii  iproute2                   4.20.0-2                    amd64        networking and traffic control tools
-    ii  iputils-ping               3:20180629-2                amd64        Tools to test the reachability of network hosts
+    ii  iputils-ping               3:20180629-2+deb10u1        amd64        Tools to test the reachability of network hosts
     ii  joe                        4.6-1+b1                    amd64        user friendly full screen text editor
     ii  less                       487-0.1+b1                  amd64        pager program similar to more
     ii  libacl1:amd64              2.2.53-4                    amd64        access control list - shared library
-    ii  libapt-inst2.0:amd64       1.8.2                       amd64        deb package format runtime library
-    ii  libapt-pkg5.0:amd64        1.8.2                       amd64        package management runtime library
+    ii  libapt-inst2.0:amd64       1.8.2.1                     amd64        deb package format runtime library
+    ii  libapt-pkg5.0:amd64        1.8.2.1                     amd64        package management runtime library
     ii  libattr1:amd64             1:2.4.48-4                  amd64        extended attribute handling - shared library
     ii  libaudit-common            1:2.8.4-3                   all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64            1:2.8.4-3                   amd64        Dynamic library for security auditing
@@ -131,8 +131,8 @@ You can define environment variables via `--env` argument found in the following
     ii  libkeyutils1:amd64         1.6-6                       amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64            1.17-3                      amd64        MIT Kerberos runtime libraries
     ii  libkrb5support0:amd64      1.17-3                      amd64        MIT Kerberos runtime libraries - Support library
-    ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u1       amd64        OpenLDAP libraries
-    ii  libldap-common             2.4.47+dfsg-3+deb10u1       all          OpenLDAP common files for libraries
+    ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u2       amd64        OpenLDAP libraries
+    ii  libldap-common             2.4.47+dfsg-3+deb10u2       all          OpenLDAP common files for libraries
     ii  liblz4-1:amd64             1.8.3-1                     amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64             5.2.4-1                     amd64        XZ-format compression library
     ii  libmnl0:amd64              1.0.4-2                     amd64        minimalistic Netlink communication library
@@ -171,12 +171,12 @@ You can define environment variables via `--env` argument found in the following
     ii  libsqlite3-0:amd64         3.27.2-3                    amd64        SQLite 3 shared library
     ii  libss2:amd64               1.44.5-1+deb10u3            amd64        command-line interface parsing library
     ii  libssh2-1:amd64            1.8.0-2.1                   amd64        SSH2 client-side library
-    ii  libssl1.1:amd64            1.1.1d-0+deb10u2            amd64        Secure Sockets Layer toolkit - shared libraries
+    ii  libssl1.1:amd64            1.1.1d-0+deb10u3            amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64           8.3.0-6                     amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64          241-7~deb10u3               amd64        systemd utility library
+    ii  libsystemd0:amd64          241-7~deb10u4               amd64        systemd utility library
     ii  libtasn1-6:amd64           4.13-3                      amd64        Manage ASN.1 structures (runtime)
     ii  libtinfo6:amd64            6.1+20181013-2+deb10u2      amd64        shared low-level terminfo library for terminal handling
-    ii  libudev1:amd64             241-7~deb10u3               amd64        libudev shared library
+    ii  libudev1:amd64             241-7~deb10u4               amd64        libudev shared library
     ii  libunistring2:amd64        0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64             2.33.1-0.1                  amd64        Universally Unique ID library
     ii  libxtables12:amd64         1.8.2-4                     amd64        netfilter xtables library
@@ -191,7 +191,7 @@ You can define environment variables via `--env` argument found in the following
     ii  ncurses-base               6.1+20181013-2+deb10u2      all          basic terminal type definitions
     ii  ncurses-bin                6.1+20181013-2+deb10u2      amd64        terminal-related programs and man pages
     ii  net-tools                  1.60+git20180626.aebd88e-1  amd64        NET-3 networking toolkit
-    ii  openssl                    1.1.1d-0+deb10u2            amd64        Secure Sockets Layer toolkit - cryptographic utility
+    ii  openssl                    1.1.1d-0+deb10u3            amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                     1:4.5-1.1                   amd64        change and administer password and group data
     ii  perl                       5.28.1-6                    amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                  5.28.1-6                    amd64        minimal Perl system
@@ -209,7 +209,7 @@ You can define environment variables via `--env` argument found in the following
     ii  sensible-utils             0.0.12                      all          Utilities for sensible alternative selection
     ii  sysvinit-utils             2.93-8                      amd64        System-V-like utilities
     ii  tar                        1.30+dfsg-6                 amd64        GNU version of the tar archiving utility
-    ii  tzdata                     2019c-0+deb10u1             all          time zone and daylight-saving time data
+    ii  tzdata                     2020a-0+deb10u1             all          time zone and daylight-saving time data
     ii  ucf                        3.0038+nmu1                 all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                      6.0-23+deb10u1              amd64        De-archiver for .zip files
     ii  util-linux                 2.33.1-0.1                  amd64        miscellaneous system utilities
