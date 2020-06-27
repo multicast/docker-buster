@@ -52,5 +52,11 @@ You can define environment variables via `--env` argument found in the following
   * `BASE_NOEXIT`
       * set to 1 not to exit on startup errors
 
+The apt proxy configuration will use above variables.
+
+Further customization of container startup can be done using script mounted
+to `/etc/entrypoint.d/NN-your-script-name`, and it gets executed by default
+entry point script. See [examples](build/etc/entrypoint.d).
+
 # Packages
 
