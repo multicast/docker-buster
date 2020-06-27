@@ -46,7 +46,7 @@ push: latest
 
 .PHONY: daily
 daily:
-	count="$(shell docker run --rm ${NAME} bash -c "apt-get update -q -q && apt list -q -q --upgradable 2>/dev/null | wc -l")" && \
+	count="$(shell docker run --rm --env http_proxy=${http_proxy} --env https_proxy=${https_proxy} ${NAME} bash -c "apt-get update -q -q && apt list -q -q --upgradable 2>/dev/null | wc -l")" && \
 	 test $$count -eq 0 || make latest
 
 .PHONY: show-updates
