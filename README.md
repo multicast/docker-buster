@@ -68,7 +68,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  adduser                    3.118                       all          add and remove users and groups
     ii  apt                        1.8.2.1                     amd64        commandline package manager
     ii  apt-utils                  1.8.2.1                     amd64        package management related utility programs
-    ii  base-files                 10.3+deb10u4                amd64        Debian base system miscellaneous files
+    ii  base-files                 10.3+deb10u5                amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                      amd64        Debian base system master password and group files
     ii  bash                       5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -128,7 +128,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libgdbm-compat4:amd64      1.18.1-4                    amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64             1.18.1-4                    amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64             2:6.1.2+dfsg-4              amd64        Multiprecision arithmetic library
-    ii  libgnutls30:amd64          3.6.7-4+deb10u4             amd64        GNU TLS library - main runtime library
+    ii  libgnutls30:amd64          3.6.7-4+deb10u5             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64        1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64     1.17-3                      amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed4:amd64          3.4.1-1                     amd64        low level cryptographic library (public-key cryptos)
@@ -155,7 +155,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libpam0g:amd64             1.3.1-5                     amd64        Pluggable Authentication Modules library
     ii  libpcre2-8-0:amd64         10.32-5                     amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
     ii  libpcre3:amd64             2:8.39-12                   amd64        Old Perl 5 Compatible Regular Expression Library - runtime files
-    ii  libperl5.28:amd64          5.28.1-6                    amd64        shared Perl library
+    ii  libperl5.28:amd64          5.28.1-6+deb10u1            amd64        shared Perl library
     ii  libpopt0:amd64             1.16-12                     amd64        lib for parsing cmdline parameters
     ii  libprocps7:amd64           2:3.3.15-2                  amd64        library for accessing process information from /proc
     ii  libpsl5:amd64              0.20.2-2                    amd64        Library for Public Suffix List (shared libraries)
@@ -199,9 +199,9 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  net-tools                  1.60+git20180626.aebd88e-1  amd64        NET-3 networking toolkit
     ii  openssl                    1.1.1d-0+deb10u3            amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                     1:4.5-1.1                   amd64        change and administer password and group data
-    ii  perl                       5.28.1-6                    amd64        Larry Wall's Practical Extraction and Report Language
-    ii  perl-base                  5.28.1-6                    amd64        minimal Perl system
-    ii  perl-modules-5.28          5.28.1-6                    all          Core Perl modules
+    ii  perl                       5.28.1-6+deb10u1            amd64        Larry Wall's Practical Extraction and Report Language
+    ii  perl-base                  5.28.1-6+deb10u1            amd64        minimal Perl system
+    ii  perl-modules-5.28          5.28.1-6+deb10u1            all          Core Perl modules
     ii  procps                     2:3.3.15-2                  amd64        /proc file system utilities
     ii  psmisc                     23.2-1                      amd64        utilities that use the proc file system
     ii  python                     2.7.16-1                    amd64        interactive high-level object-oriented language (Python2 version)
