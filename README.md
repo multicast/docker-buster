@@ -137,8 +137,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libkeyutils1:amd64         1.6-6                       amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64            1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries
     ii  libkrb5support0:amd64      1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries - Support library
-    ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u4       amd64        OpenLDAP libraries
-    ii  libldap-common             2.4.47+dfsg-3+deb10u4       all          OpenLDAP common files for libraries
+    ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u5       amd64        OpenLDAP libraries
+    ii  libldap-common             2.4.47+dfsg-3+deb10u5       all          OpenLDAP common files for libraries
     ii  liblz4-1:amd64             1.8.3-1                     amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64             5.2.4-1                     amd64        XZ-format compression library
     ii  libmnl0:amd64              1.0.4-2                     amd64        minimalistic Netlink communication library
