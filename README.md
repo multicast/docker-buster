@@ -137,8 +137,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libkeyutils1:amd64         1.6-6                       amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64            1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries
     ii  libkrb5support0:amd64      1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries - Support library
-    ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u5       amd64        OpenLDAP libraries
-    ii  libldap-common             2.4.47+dfsg-3+deb10u5       all          OpenLDAP common files for libraries
+    ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u6       amd64        OpenLDAP libraries
+    ii  libldap-common             2.4.47+dfsg-3+deb10u6       all          OpenLDAP common files for libraries
     ii  liblz4-1:amd64             1.8.3-1                     amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64             5.2.4-1                     amd64        XZ-format compression library
     ii  libmnl0:amd64              1.0.4-2                     amd64        minimalistic Netlink communication library
@@ -186,7 +186,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libunistring2:amd64        0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64             2.33.1-0.1                  amd64        Universally Unique ID library
     ii  libxtables12:amd64         1.8.2-4                     amd64        netfilter xtables library
-    ii  libzstd1:amd64             1.3.8+dfsg-3+deb10u1        amd64        fast lossless compression algorithm
+    ii  libzstd1:amd64             1.3.8+dfsg-3+deb10u2        amd64        fast lossless compression algorithm
     ii  localepurge                0.7.3.5                     all          reclaim disk space by removing unneeded localizations
     ii  locales                    2.28-10                     all          GNU C Library: National Language (locale) data [support]
     ii  login                      1:4.5-1.1                   amd64        system login tools
