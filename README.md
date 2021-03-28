@@ -68,7 +68,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  adduser                    3.118                       all          add and remove users and groups
     ii  apt                        1.8.2.2                     amd64        commandline package manager
     ii  apt-utils                  1.8.2.2                     amd64        package management related utility programs
-    ii  base-files                 10.3+deb10u8                amd64        Debian base system miscellaneous files
+    ii  base-files                 10.3+deb10u9                amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                      amd64        Debian base system master password and group files
     ii  bash                       5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -77,7 +77,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  curl                       7.64.0-4+deb10u1            amd64        command line tool for transferring data with URL syntax
     ii  dash                       0.5.10.2-5                  amd64        POSIX-compliant shell
     ii  debconf                    1.5.71                      all          Debian configuration management system
-    ii  debian-archive-keyring     2019.1                      all          GnuPG archive keys of the Debian archive
+    ii  debian-archive-keyring     2019.1+deb10u1              all          GnuPG archive keys of the Debian archive
     ii  debianutils                4.8.6.1                     amd64        Miscellaneous utilities specific to Debian
     ii  di                         4.47-1                      amd64        advanced df like disk information utility
     ii  diffutils                  1:3.7-3                     amd64        File comparison utilities
@@ -95,7 +95,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  hostname                   3.21                        amd64        utility to set/show the host name or domain name
     ii  init-system-helpers        1.56+nmu1                   all          helper tools for all init systems
     ii  iproute2                   4.20.0-2+deb10u1            amd64        networking and traffic control tools
-    ii  iputils-ping               3:20180629-2+deb10u1        amd64        Tools to test the reachability of network hosts
+    ii  iputils-ping               3:20180629-2+deb10u2        amd64        Tools to test the reachability of network hosts
     ii  joe                        4.6-1+b1                    amd64        user friendly full screen text editor
     ii  less                       487-0.1+b1                  amd64        pager program similar to more
     ii  libacl1:amd64              2.2.53-4                    amd64        access control list - shared library
@@ -179,10 +179,10 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libssh2-1:amd64            1.8.0-2.1                   amd64        SSH2 client-side library
     ii  libssl1.1:amd64            1.1.1d-0+deb10u6            amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64           8.3.0-6                     amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64          241-7~deb10u6               amd64        systemd utility library
+    ii  libsystemd0:amd64          241-7~deb10u7               amd64        systemd utility library
     ii  libtasn1-6:amd64           4.13-3                      amd64        Manage ASN.1 structures (runtime)
     ii  libtinfo6:amd64            6.1+20181013-2+deb10u2      amd64        shared low-level terminfo library for terminal handling
-    ii  libudev1:amd64             241-7~deb10u6               amd64        libudev shared library
+    ii  libudev1:amd64             241-7~deb10u7               amd64        libudev shared library
     ii  libunistring2:amd64        0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64             2.33.1-0.1                  amd64        Universally Unique ID library
     ii  libxtables12:amd64         1.8.2-4                     amd64        netfilter xtables library
