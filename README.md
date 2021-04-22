@@ -66,8 +66,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ||/ Name                       Version                     Architecture Description
     +++-==========================-===========================-============-===============================================================================
     ii  adduser                    3.118                       all          add and remove users and groups
-    ii  apt                        1.8.2.2                     amd64        commandline package manager
-    ii  apt-utils                  1.8.2.2                     amd64        package management related utility programs
+    ii  apt                        1.8.2.3                     amd64        commandline package manager
+    ii  apt-utils                  1.8.2.3                     amd64        package management related utility programs
     ii  base-files                 10.3+deb10u9                amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                      amd64        Debian base system master password and group files
     ii  bash                       5.0-4                       amd64        GNU Bourne Again SHell
@@ -99,8 +99,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  joe                        4.6-1+b1                    amd64        user friendly full screen text editor
     ii  less                       487-0.1+b1                  amd64        pager program similar to more
     ii  libacl1:amd64              2.2.53-4                    amd64        access control list - shared library
-    ii  libapt-inst2.0:amd64       1.8.2.2                     amd64        deb package format runtime library
-    ii  libapt-pkg5.0:amd64        1.8.2.2                     amd64        package management runtime library
+    ii  libapt-inst2.0:amd64       1.8.2.3                     amd64        deb package format runtime library
+    ii  libapt-pkg5.0:amd64        1.8.2.3                     amd64        package management runtime library
     ii  libattr1:amd64             1:2.4.48-4                  amd64        extended attribute handling - shared library
     ii  libaudit-common            1:2.8.4-3                   all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64            1:2.8.4-3                   amd64        Dynamic library for security auditing
