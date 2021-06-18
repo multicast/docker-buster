@@ -131,7 +131,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libgnutls30:amd64          3.6.7-4+deb10u6             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64        1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64     1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-    ii  libhogweed4:amd64          3.4.1-1                     amd64        low level cryptographic library (public-key cryptos)
+    ii  libhogweed4:amd64          3.4.1-1+deb10u1             amd64        low level cryptographic library (public-key cryptos)
     ii  libidn2-0:amd64            2.0.5-1+deb10u1             amd64        Internationalized domain names (IDNA2008/TR46) library
     ii  libk5crypto3:amd64         1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64         1.6-6                       amd64        Linux Key Management Utilities (library)
@@ -145,7 +145,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libmount1:amd64            2.33.1-0.1                  amd64        device mounting library
     ii  libncurses6:amd64          6.1+20181013-2+deb10u2      amd64        shared libraries for terminal handling
     ii  libncursesw6:amd64         6.1+20181013-2+deb10u2      amd64        shared libraries for terminal handling (wide character support)
-    ii  libnettle6:amd64           3.4.1-1                     amd64        low level cryptographic library (symmetric and one-way cryptos)
+    ii  libnettle6:amd64           3.4.1-1+deb10u1             amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64          0.52.20-8                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64        1.36.0-2+deb10u1            amd64        library implementing HTTP/2 protocol (shared library)
     ii  libp11-kit0:amd64          0.23.15-2+deb10u1           amd64        library for loading and coordinating access to PKCS#11 modules - runtime
