@@ -68,7 +68,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  adduser                    3.118                       all          add and remove users and groups
     ii  apt                        1.8.2.3                     amd64        commandline package manager
     ii  apt-utils                  1.8.2.3                     amd64        package management related utility programs
-    ii  base-files                 10.3+deb10u10               amd64        Debian base system miscellaneous files
+    ii  base-files                 10.3+deb10u11               amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                      amd64        Debian base system master password and group files
     ii  bash                       5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -76,7 +76,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  coreutils                  8.30-3                      amd64        GNU core utilities
     ii  curl                       7.64.0-4+deb10u2            amd64        command line tool for transferring data with URL syntax
     ii  dash                       0.5.10.2-5                  amd64        POSIX-compliant shell
-    ii  debconf                    1.5.71                      all          Debian configuration management system
+    ii  debconf                    1.5.71+deb10u1              all          Debian configuration management system
     ii  debian-archive-keyring     2019.1+deb10u1              all          GnuPG archive keys of the Debian archive
     ii  debianutils                4.8.6.1                     amd64        Miscellaneous utilities specific to Debian
     ii  di                         4.47-1                      amd64        advanced df like disk information utility
@@ -130,13 +130,13 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libgmp10:amd64             2:6.1.2+dfsg-4              amd64        Multiprecision arithmetic library
     ii  libgnutls30:amd64          3.6.7-4+deb10u7             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64        1.35-1                      amd64        GnuPG development runtime library
-    ii  libgssapi-krb5-2:amd64     1.17-3+deb10u2              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+    ii  libgssapi-krb5-2:amd64     1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed4:amd64          3.4.1-1+deb10u1             amd64        low level cryptographic library (public-key cryptos)
     ii  libidn2-0:amd64            2.0.5-1+deb10u1             amd64        Internationalized domain names (IDNA2008/TR46) library
-    ii  libk5crypto3:amd64         1.17-3+deb10u2              amd64        MIT Kerberos runtime libraries - Crypto Library
+    ii  libk5crypto3:amd64         1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64         1.6-6                       amd64        Linux Key Management Utilities (library)
-    ii  libkrb5-3:amd64            1.17-3+deb10u2              amd64        MIT Kerberos runtime libraries
-    ii  libkrb5support0:amd64      1.17-3+deb10u2              amd64        MIT Kerberos runtime libraries - Support library
+    ii  libkrb5-3:amd64            1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries
+    ii  libkrb5support0:amd64      1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries - Support library
     ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u6       amd64        OpenLDAP libraries
     ii  libldap-common             2.4.47+dfsg-3+deb10u6       all          OpenLDAP common files for libraries
     ii  liblz4-1:amd64             1.8.3-1+deb10u1             amd64        Fast LZ compression algorithm library - runtime
@@ -203,7 +203,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  perl-base                  5.28.1-6+deb10u1            amd64        minimal Perl system
     ii  perl-modules-5.28          5.28.1-6+deb10u1            all          Core Perl modules
     ii  procps                     2:3.3.15-2                  amd64        /proc file system utilities
-    ii  psmisc                     23.2-1                      amd64        utilities that use the proc file system
+    ii  psmisc                     23.2-1+deb10u1              amd64        utilities that use the proc file system
     ii  python                     2.7.16-1                    amd64        interactive high-level object-oriented language (Python2 version)
     ii  python-minimal             2.7.16-1                    amd64        minimal subset of the Python2 language
     ii  python2                    2.7.16-1                    amd64        interactive high-level object-oriented language (Python2 version)
