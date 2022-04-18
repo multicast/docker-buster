@@ -91,7 +91,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  git-man                    1:2.20.1-2+deb10u3          all          fast, scalable, distributed revision control system (manual pages)
     ii  gpgv                       2.2.12-1+deb10u1            amd64        GNU privacy guard - signature verification tool
     ii  grep                       3.3-1                       amd64        GNU grep, egrep and fgrep
-    ii  gzip                       1.9-3                       amd64        GNU compression utilities
+    ii  gzip                       1.9-3+deb10u1               amd64        GNU compression utilities
     ii  hostname                   3.21                        amd64        utility to set/show the host name or domain name
     ii  init-system-helpers        1.56+nmu1                   all          helper tools for all init systems
     ii  iproute2                   4.20.0-2+deb10u1            amd64        networking and traffic control tools
@@ -140,7 +140,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u6       amd64        OpenLDAP libraries
     ii  libldap-common             2.4.47+dfsg-3+deb10u6       all          OpenLDAP common files for libraries
     ii  liblz4-1:amd64             1.8.3-1+deb10u1             amd64        Fast LZ compression algorithm library - runtime
-    ii  liblzma5:amd64             5.2.4-1                     amd64        XZ-format compression library
+    ii  liblzma5:amd64             5.2.4-1+deb10u1             amd64        XZ-format compression library
     ii  libmnl0:amd64              1.0.4-2                     amd64        minimalistic Netlink communication library
     ii  libmount1:amd64            2.33.1-0.1                  amd64        device mounting library
     ii  libncurses6:amd64          6.1+20181013-2+deb10u2      amd64        shared libraries for terminal handling
