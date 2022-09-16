@@ -105,7 +105,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libaudit-common            1:2.8.4-3                   all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64            1:2.8.4-3                   amd64        Dynamic library for security auditing
     ii  libblkid1:amd64            2.33.1-0.1                  amd64        block device ID library
-    ii  libbz2-1.0:amd64           1.0.6-9.2~deb10u1           amd64        high-quality block-sorting file compressor library - runtime
+    ii  libbz2-1.0:amd64           1.0.6-9.2~deb10u2           amd64        high-quality block-sorting file compressor library - runtime
     ii  libc-bin                   2.28-10+deb10u1             amd64        GNU C Library: Binaries
     ii  libc-l10n                  2.28-10+deb10u1             all          GNU C Library: localization files
     ii  libc6:amd64                2.28-10+deb10u1             amd64        GNU C Library: Shared libraries
