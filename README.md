@@ -74,7 +74,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
     ii  ca-certificates            20200601~deb10u2            all          Common CA certificates
     ii  coreutils                  8.30-3                      amd64        GNU core utilities
-    ii  curl                       7.64.0-4+deb10u3            amd64        command line tool for transferring data with URL syntax
+    ii  curl                       7.64.0-4+deb10u4            amd64        command line tool for transferring data with URL syntax
     ii  dash                       0.5.10.2-5                  amd64        POSIX-compliant shell
     ii  debconf                    1.5.71+deb10u1              all          Debian configuration management system
     ii  debian-archive-keyring     2019.1+deb10u1              all          GnuPG archive keys of the Debian archive
@@ -113,8 +113,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libcap2:amd64              1:2.25-2                    amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin                1:2.25-2                    amd64        POSIX 1003.1e capabilities (utilities)
     ii  libcom-err2:amd64          1.44.5-1+deb10u3            amd64        common error description library
-    ii  libcurl3-gnutls:amd64      7.64.0-4+deb10u3            amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
-    ii  libcurl4:amd64             7.64.0-4+deb10u3            amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+    ii  libcurl3-gnutls:amd64      7.64.0-4+deb10u4            amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+    ii  libcurl4:amd64             7.64.0-4+deb10u4            amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64             5.3.28+dfsg1-0.5            amd64        Berkeley v5.3 Database Libraries [runtime]
     ii  libdebconfclient0:amd64    0.249                       amd64        Debian Configuration Management System (C-implementation library)
     ii  libelf1:amd64              0.176-1.1                   amd64        library to read and write ELF files
