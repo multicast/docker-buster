@@ -153,7 +153,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libpam-modules-bin         1.3.1-5                     amd64        Pluggable Authentication Modules for PAM - helper binaries
     ii  libpam-runtime             1.3.1-5                     all          Runtime support for the PAM library
     ii  libpam0g:amd64             1.3.1-5                     amd64        Pluggable Authentication Modules library
-    ii  libpcre2-8-0:amd64         10.32-5                     amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
+    ii  libpcre2-8-0:amd64         10.32-5+deb10u1             amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
     ii  libpcre3:amd64             2:8.39-12                   amd64        Old Perl 5 Compatible Regular Expression Library - runtime files
     ii  libperl5.28:amd64          5.28.1-6+deb10u1            amd64        shared Perl library
     ii  libpopt0:amd64             1.16-12                     amd64        lib for parsing cmdline parameters
