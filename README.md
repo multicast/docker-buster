@@ -161,8 +161,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libpsl5:amd64              0.20.2-2                    amd64        Library for Public Suffix List (shared libraries)
     ii  libpython-stdlib:amd64     2.7.16-1                    amd64        interactive high-level object-oriented language (Python2)
     ii  libpython2-stdlib:amd64    2.7.16-1                    amd64        interactive high-level object-oriented language (Python2)
-    ii  libpython2.7-minimal:amd64 2.7.16-2+deb10u1            amd64        Minimal subset of the Python language (version 2.7)
-    ii  libpython2.7-stdlib:amd64  2.7.16-2+deb10u1            amd64        Interactive high-level object-oriented language (standard library, version 2.7)
+    ii  libpython2.7-minimal:amd64 2.7.16-2+deb10u2            amd64        Minimal subset of the Python language (version 2.7)
+    ii  libpython2.7-stdlib:amd64  2.7.16-2+deb10u2            amd64        Interactive high-level object-oriented language (standard library, version 2.7)
     ii  libreadline7:amd64         7.0-5                       amd64        GNU readline and history libraries, run-time libraries
     ii  librtmp1:amd64             2.4+20151223.gitfa8646d.1-2 amd64        toolkit for RTMP streams (shared library)
     ii  libsasl2-2:amd64           2.1.27+dfsg-1+deb10u2       amd64        Cyrus SASL - authentication abstraction library
@@ -208,8 +208,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  python-minimal             2.7.16-1                    amd64        minimal subset of the Python2 language
     ii  python2                    2.7.16-1                    amd64        interactive high-level object-oriented language (Python2 version)
     ii  python2-minimal            2.7.16-1                    amd64        minimal subset of the Python2 language
-    ii  python2.7                  2.7.16-2+deb10u1            amd64        Interactive high-level object-oriented language (version 2.7)
-    ii  python2.7-minimal          2.7.16-2+deb10u1            amd64        Minimal subset of the Python language (version 2.7)
+    ii  python2.7                  2.7.16-2+deb10u2            amd64        Interactive high-level object-oriented language (version 2.7)
+    ii  python2.7-minimal          2.7.16-2+deb10u2            amd64        Minimal subset of the Python language (version 2.7)
     ii  readline-common            7.0-5                       all          GNU readline and history libraries, common files
     ii  sed                        4.7-1                       amd64        GNU stream editor for filtering/transforming text
     ii  sensible-utils             0.0.12                      all          Utilities for sensible alternative selection
