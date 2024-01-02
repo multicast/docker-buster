@@ -74,10 +74,10 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
     ii  ca-certificates            20200601~deb10u2            all          Common CA certificates
     ii  coreutils                  8.30-3                      amd64        GNU core utilities
-    ii  curl                       7.64.0-4+deb10u6            amd64        command line tool for transferring data with URL syntax
+    ii  curl                       7.64.0-4+deb10u8            amd64        command line tool for transferring data with URL syntax
     ii  dash                       0.5.10.2-5                  amd64        POSIX-compliant shell
     ii  debconf                    1.5.71+deb10u1              all          Debian configuration management system
-    ii  debian-archive-keyring     2019.1+deb10u1              all          GnuPG archive keys of the Debian archive
+    ii  debian-archive-keyring     2019.1+deb10u2              all          GnuPG archive keys of the Debian archive
     ii  debianutils                4.8.6.1                     amd64        Miscellaneous utilities specific to Debian
     ii  di                         4.47-1                      amd64        advanced df like disk information utility
     ii  diffutils                  1:3.7-3                     amd64        File comparison utilities
@@ -113,11 +113,11 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libcap2:amd64              1:2.25-2                    amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin                1:2.25-2                    amd64        POSIX 1003.1e capabilities (utilities)
     ii  libcom-err2:amd64          1.44.5-1+deb10u3            amd64        common error description library
-    ii  libcurl3-gnutls:amd64      7.64.0-4+deb10u6            amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
-    ii  libcurl4:amd64             7.64.0-4+deb10u6            amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+    ii  libcurl3-gnutls:amd64      7.64.0-4+deb10u8            amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+    ii  libcurl4:amd64             7.64.0-4+deb10u8            amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64             5.3.28+dfsg1-0.5            amd64        Berkeley v5.3 Database Libraries [runtime]
     ii  libdebconfclient0:amd64    0.249                       amd64        Debian Configuration Management System (C-implementation library)
-    ii  libelf1:amd64              0.176-1.1                   amd64        library to read and write ELF files
+    ii  libelf1:amd64              0.176-1.1+deb10u1           amd64        library to read and write ELF files
     ii  liberror-perl              0.17027-2                   all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64            2.2.6-2+deb10u6             amd64        XML parsing C library - runtime library
     ii  libext2fs2:amd64           1.44.5-1+deb10u3            amd64        ext2/ext3/ext4 file system libraries
@@ -128,26 +128,26 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libgdbm-compat4:amd64      1.18.1-4                    amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64             1.18.1-4                    amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64             2:6.1.2+dfsg-4+deb10u1      amd64        Multiprecision arithmetic library
-    ii  libgnutls30:amd64          3.6.7-4+deb10u10            amd64        GNU TLS library - main runtime library
+    ii  libgnutls30:amd64          3.6.7-4+deb10u11            amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64        1.35-1                      amd64        GnuPG development runtime library
-    ii  libgssapi-krb5-2:amd64     1.17-3+deb10u5              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+    ii  libgssapi-krb5-2:amd64     1.17-3+deb10u6              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed4:amd64          3.4.1-1+deb10u1             amd64        low level cryptographic library (public-key cryptos)
     ii  libidn2-0:amd64            2.0.5-1+deb10u1             amd64        Internationalized domain names (IDNA2008/TR46) library
-    ii  libk5crypto3:amd64         1.17-3+deb10u5              amd64        MIT Kerberos runtime libraries - Crypto Library
+    ii  libk5crypto3:amd64         1.17-3+deb10u6              amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64         1.6-6                       amd64        Linux Key Management Utilities (library)
-    ii  libkrb5-3:amd64            1.17-3+deb10u5              amd64        MIT Kerberos runtime libraries
-    ii  libkrb5support0:amd64      1.17-3+deb10u5              amd64        MIT Kerberos runtime libraries - Support library
+    ii  libkrb5-3:amd64            1.17-3+deb10u6              amd64        MIT Kerberos runtime libraries
+    ii  libkrb5support0:amd64      1.17-3+deb10u6              amd64        MIT Kerberos runtime libraries - Support library
     ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u7       amd64        OpenLDAP libraries
     ii  libldap-common             2.4.47+dfsg-3+deb10u7       all          OpenLDAP common files for libraries
     ii  liblz4-1:amd64             1.8.3-1+deb10u1             amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64             5.2.4-1+deb10u1             amd64        XZ-format compression library
     ii  libmnl0:amd64              1.0.4-2                     amd64        minimalistic Netlink communication library
     ii  libmount1:amd64            2.33.1-0.1                  amd64        device mounting library
-    ii  libncurses6:amd64          6.1+20181013-2+deb10u3      amd64        shared libraries for terminal handling
-    ii  libncursesw6:amd64         6.1+20181013-2+deb10u3      amd64        shared libraries for terminal handling (wide character support)
+    ii  libncurses6:amd64          6.1+20181013-2+deb10u5      amd64        shared libraries for terminal handling
+    ii  libncursesw6:amd64         6.1+20181013-2+deb10u5      amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle6:amd64           3.4.1-1+deb10u1             amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64          0.52.20-8                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
-    ii  libnghttp2-14:amd64        1.36.0-2+deb10u1            amd64        library implementing HTTP/2 protocol (shared library)
+    ii  libnghttp2-14:amd64        1.36.0-2+deb10u2            amd64        library implementing HTTP/2 protocol (shared library)
     ii  libp11-kit0:amd64          0.23.15-2+deb10u1           amd64        library for loading and coordinating access to PKCS#11 modules - runtime
     ii  libpam-modules:amd64       1.3.1-5                     amd64        Pluggable Authentication Modules for PAM
     ii  libpam-modules-bin         1.3.1-5                     amd64        Pluggable Authentication Modules for PAM - helper binaries
@@ -161,8 +161,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libpsl5:amd64              0.20.2-2                    amd64        Library for Public Suffix List (shared libraries)
     ii  libpython-stdlib:amd64     2.7.16-1                    amd64        interactive high-level object-oriented language (Python2)
     ii  libpython2-stdlib:amd64    2.7.16-1                    amd64        interactive high-level object-oriented language (Python2)
-    ii  libpython2.7-minimal:amd64 2.7.16-2+deb10u2            amd64        Minimal subset of the Python language (version 2.7)
-    ii  libpython2.7-stdlib:amd64  2.7.16-2+deb10u2            amd64        Interactive high-level object-oriented language (standard library, version 2.7)
+    ii  libpython2.7-minimal:amd64 2.7.16-2+deb10u3            amd64        Minimal subset of the Python language (version 2.7)
+    ii  libpython2.7-stdlib:amd64  2.7.16-2+deb10u3            amd64        Interactive high-level object-oriented language (standard library, version 2.7)
     ii  libreadline7:amd64         7.0-5                       amd64        GNU readline and history libraries, run-time libraries
     ii  librtmp1:amd64             2.4+20151223.gitfa8646d.1-2 amd64        toolkit for RTMP streams (shared library)
     ii  libsasl2-2:amd64           2.1.27+dfsg-1+deb10u2       amd64        Cyrus SASL - authentication abstraction library
@@ -176,13 +176,13 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsmartcols1:amd64        2.33.1-0.1                  amd64        smart column output alignment library
     ii  libsqlite3-0:amd64         3.27.2-3+deb10u2            amd64        SQLite 3 shared library
     ii  libss2:amd64               1.44.5-1+deb10u3            amd64        command-line interface parsing library
-    ii  libssh2-1:amd64            1.8.0-2.1                   amd64        SSH2 client-side library
-    ii  libssl1.1:amd64            1.1.1n-0+deb10u5            amd64        Secure Sockets Layer toolkit - shared libraries
+    ii  libssh2-1:amd64            1.8.0-2.1+deb10u1           amd64        SSH2 client-side library
+    ii  libssl1.1:amd64            1.1.1n-0+deb10u6            amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64           8.3.0-6                     amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64          241-7~deb10u9               amd64        systemd utility library
+    ii  libsystemd0:amd64          241-7~deb10u10              amd64        systemd utility library
     ii  libtasn1-6:amd64           4.13-3+deb10u1              amd64        Manage ASN.1 structures (runtime)
-    ii  libtinfo6:amd64            6.1+20181013-2+deb10u3      amd64        shared low-level terminfo library for terminal handling
-    ii  libudev1:amd64             241-7~deb10u9               amd64        libudev shared library
+    ii  libtinfo6:amd64            6.1+20181013-2+deb10u5      amd64        shared low-level terminfo library for terminal handling
+    ii  libudev1:amd64             241-7~deb10u10              amd64        libudev shared library
     ii  libunistring2:amd64        0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64             2.33.1-0.1                  amd64        Universally Unique ID library
     ii  libxtables12:amd64         1.8.2-4                     amd64        netfilter xtables library
@@ -194,10 +194,10 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  mawk                       1.3.3-17+b3                 amd64        a pattern scanning and text processing language
     ii  mime-support               3.62                        all          MIME files 'mime.types' & 'mailcap', and support programs
     ii  mount                      2.33.1-0.1                  amd64        tools for mounting and manipulating filesystems
-    ii  ncurses-base               6.1+20181013-2+deb10u3      all          basic terminal type definitions
-    ii  ncurses-bin                6.1+20181013-2+deb10u3      amd64        terminal-related programs and man pages
+    ii  ncurses-base               6.1+20181013-2+deb10u5      all          basic terminal type definitions
+    ii  ncurses-bin                6.1+20181013-2+deb10u5      amd64        terminal-related programs and man pages
     ii  net-tools                  1.60+git20180626.aebd88e-1  amd64        NET-3 networking toolkit
-    ii  openssl                    1.1.1n-0+deb10u5            amd64        Secure Sockets Layer toolkit - cryptographic utility
+    ii  openssl                    1.1.1n-0+deb10u6            amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                     1:4.5-1.1                   amd64        change and administer password and group data
     ii  perl                       5.28.1-6+deb10u1            amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                  5.28.1-6+deb10u1            amd64        minimal Perl system
@@ -208,14 +208,14 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  python-minimal             2.7.16-1                    amd64        minimal subset of the Python2 language
     ii  python2                    2.7.16-1                    amd64        interactive high-level object-oriented language (Python2 version)
     ii  python2-minimal            2.7.16-1                    amd64        minimal subset of the Python2 language
-    ii  python2.7                  2.7.16-2+deb10u2            amd64        Interactive high-level object-oriented language (version 2.7)
-    ii  python2.7-minimal          2.7.16-2+deb10u2            amd64        Minimal subset of the Python language (version 2.7)
+    ii  python2.7                  2.7.16-2+deb10u3            amd64        Interactive high-level object-oriented language (version 2.7)
+    ii  python2.7-minimal          2.7.16-2+deb10u3            amd64        Minimal subset of the Python language (version 2.7)
     ii  readline-common            7.0-5                       all          GNU readline and history libraries, common files
     ii  sed                        4.7-1                       amd64        GNU stream editor for filtering/transforming text
     ii  sensible-utils             0.0.12                      all          Utilities for sensible alternative selection
     ii  sysvinit-utils             2.93-8                      amd64        System-V-like utilities
     ii  tar                        1.30+dfsg-6                 amd64        GNU version of the tar archiving utility
-    ii  tzdata                     2021a-0+deb10u11            all          time zone and daylight-saving time data
+    ii  tzdata                     2021a-0+deb10u12            all          time zone and daylight-saving time data
     ii  ucf                        3.0038+nmu1                 all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                      6.0-23+deb10u3              amd64        De-archiver for .zip files
     ii  util-linux                 2.33.1-0.1                  amd64        miscellaneous system utilities
