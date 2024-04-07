@@ -71,7 +71,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  base-files                 10.3+deb10u13               amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                      amd64        Debian base system master password and group files
     ii  bash                       5.0-4                       amd64        GNU Bourne Again SHell
-    ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
+    ii  bsdutils                   1:2.33.1-0.1+deb10u1        amd64        basic utilities from 4.4BSD-Lite
     ii  ca-certificates            20200601~deb10u2            all          Common CA certificates
     ii  coreutils                  8.30-3                      amd64        GNU core utilities
     ii  curl                       7.64.0-4+deb10u9            amd64        command line tool for transferring data with URL syntax
@@ -84,7 +84,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  dpkg                       1.19.8                      amd64        Debian package management system
     ii  e2fsprogs                  1.44.5-1+deb10u3            amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                  1.18.10-1                   all          store /etc in git, mercurial, bzr or darcs
-    ii  fdisk                      2.33.1-0.1                  amd64        collection of partitioning utilities
+    ii  fdisk                      2.33.1-0.1+deb10u1          amd64        collection of partitioning utilities
     ii  findutils                  4.6.0+git+20190209-2        amd64        utilities for finding files--find, xargs
     ii  gcc-8-base:amd64           8.3.0-6                     amd64        GCC, the GNU Compiler Collection (base package)
     ii  git                        1:2.20.1-2+deb10u8          amd64        fast, scalable, distributed revision control system
@@ -104,7 +104,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libattr1:amd64             1:2.4.48-4                  amd64        extended attribute handling - shared library
     ii  libaudit-common            1:2.8.4-3                   all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64            1:2.8.4-3                   amd64        Dynamic library for security auditing
-    ii  libblkid1:amd64            2.33.1-0.1                  amd64        block device ID library
+    ii  libblkid1:amd64            2.33.1-0.1+deb10u1          amd64        block device ID library
     ii  libbz2-1.0:amd64           1.0.6-9.2~deb10u2           amd64        high-quality block-sorting file compressor library - runtime
     ii  libc-bin                   2.28-10+deb10u2             amd64        GNU C Library: Binaries
     ii  libc-l10n                  2.28-10+deb10u2             all          GNU C Library: localization files
@@ -121,7 +121,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  liberror-perl              0.17027-2                   all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64            2.2.6-2+deb10u7             amd64        XML parsing C library - runtime library
     ii  libext2fs2:amd64           1.44.5-1+deb10u3            amd64        ext2/ext3/ext4 file system libraries
-    ii  libfdisk1:amd64            2.33.1-0.1                  amd64        fdisk partitioning library
+    ii  libfdisk1:amd64            2.33.1-0.1+deb10u1          amd64        fdisk partitioning library
     ii  libffi6:amd64              3.2.1-9                     amd64        Foreign Function Interface library runtime
     ii  libgcc1:amd64              1:8.3.0-6                   amd64        GCC support library
     ii  libgcrypt20:amd64          1.8.4-5+deb10u1             amd64        LGPL Crypto library - runtime library
@@ -142,7 +142,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  liblz4-1:amd64             1.8.3-1+deb10u1             amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64             5.2.4-1+deb10u1             amd64        XZ-format compression library
     ii  libmnl0:amd64              1.0.4-2                     amd64        minimalistic Netlink communication library
-    ii  libmount1:amd64            2.33.1-0.1                  amd64        device mounting library
+    ii  libmount1:amd64            2.33.1-0.1+deb10u1          amd64        device mounting library
     ii  libncurses6:amd64          6.1+20181013-2+deb10u5      amd64        shared libraries for terminal handling
     ii  libncursesw6:amd64         6.1+20181013-2+deb10u5      amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle6:amd64           3.4.1-1+deb10u1             amd64        low level cryptographic library (symmetric and one-way cryptos)
@@ -173,7 +173,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsemanage1:amd64         2.8-2                       amd64        SELinux policy management library
     ii  libsepol1:amd64            2.8-1                       amd64        SELinux library for manipulating binary security policies
     ii  libslang2:amd64            2.3.2-2                     amd64        S-Lang programming library - runtime version
-    ii  libsmartcols1:amd64        2.33.1-0.1                  amd64        smart column output alignment library
+    ii  libsmartcols1:amd64        2.33.1-0.1+deb10u1          amd64        smart column output alignment library
     ii  libsqlite3-0:amd64         3.27.2-3+deb10u2            amd64        SQLite 3 shared library
     ii  libss2:amd64               1.44.5-1+deb10u3            amd64        command-line interface parsing library
     ii  libssh2-1:amd64            1.8.0-2.1+deb10u1           amd64        SSH2 client-side library
@@ -184,7 +184,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libtinfo6:amd64            6.1+20181013-2+deb10u5      amd64        shared low-level terminfo library for terminal handling
     ii  libudev1:amd64             241-7~deb10u10              amd64        libudev shared library
     ii  libunistring2:amd64        0.9.10-1                    amd64        Unicode string library for C
-    ii  libuuid1:amd64             2.33.1-0.1                  amd64        Universally Unique ID library
+    ii  libuuid1:amd64             2.33.1-0.1+deb10u1          amd64        Universally Unique ID library
     ii  libxtables12:amd64         1.8.2-4                     amd64        netfilter xtables library
     ii  libzstd1:amd64             1.3.8+dfsg-3+deb10u2        amd64        fast lossless compression algorithm
     ii  localepurge                0.7.3.5                     all          reclaim disk space by removing unneeded localizations
@@ -193,7 +193,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  lsb-base                   10.2019051400               all          Linux Standard Base init script functionality
     ii  mawk                       1.3.3-17+b3                 amd64        a pattern scanning and text processing language
     ii  mime-support               3.62                        all          MIME files 'mime.types' & 'mailcap', and support programs
-    ii  mount                      2.33.1-0.1                  amd64        tools for mounting and manipulating filesystems
+    ii  mount                      2.33.1-0.1+deb10u1          amd64        tools for mounting and manipulating filesystems
     ii  ncurses-base               6.1+20181013-2+deb10u5      all          basic terminal type definitions
     ii  ncurses-bin                6.1+20181013-2+deb10u5      amd64        terminal-related programs and man pages
     ii  net-tools                  1.60+git20180626.aebd88e-1  amd64        NET-3 networking toolkit
@@ -218,7 +218,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  tzdata                     2021a-0+deb10u12            all          time zone and daylight-saving time data
     ii  ucf                        3.0038+nmu1                 all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                      6.0-23+deb10u3              amd64        De-archiver for .zip files
-    ii  util-linux                 2.33.1-0.1                  amd64        miscellaneous system utilities
+    ii  util-linux                 2.33.1-0.1+deb10u1          amd64        miscellaneous system utilities
     ii  whiptail                   0.52.20-8                   amd64        Displays user-friendly dialog boxes from shell scripts
     ii  xtail                      2.1-6                       amd64        like "tail -f", but works on truncated files, directories, more
     ii  zlib1g:amd64               1:1.2.11.dfsg-1+deb10u2     amd64        compression library - runtime
