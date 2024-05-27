@@ -97,7 +97,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  iproute2                   4.20.0-2+deb10u1            amd64        networking and traffic control tools
     ii  iputils-ping               3:20180629-2+deb10u2        amd64        Tools to test the reachability of network hosts
     ii  joe                        4.6-1+b1                    amd64        user friendly full screen text editor
-    ii  less                       487-0.1+b1                  amd64        pager program similar to more
+    ii  less                       487-0.1+deb10u1             amd64        pager program similar to more
     ii  libacl1:amd64              2.2.53-4                    amd64        access control list - shared library
     ii  libapt-inst2.0:amd64       1.8.2.3                     amd64        deb package format runtime library
     ii  libapt-pkg5.0:amd64        1.8.2.3                     amd64        package management runtime library
